@@ -1,0 +1,21 @@
+#' @title Covarianza
+#' @description Calcula la covarianza entre dos variables de tipo continuas.
+#' @param x Nombre variable X.
+#' @param y Nombre variable Y.
+#' @references Casella, G. (1990). Statistical Inference. Duxburry Press.
+#' @export
+#'
+covarianza<-function(x,y){
+  if(length(x)==length(y)){
+    promx<-promedio(x)
+    promy<-promedio(y)
+    n<-length(x)
+    c<-0
+    i<-1
+    while(i<=n){
+       c<-c+((x[i]-promx)*(y[i]-promy))
+       i<-i+1}
+    c<-(c/(n-1))
+   return(c)}
+      else{print("Las variables poseen distintos tamanos")}
+}

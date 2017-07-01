@@ -1,0 +1,34 @@
+---
+title: "Analisis Descriptivo"
+author: "Seomara Palominos"
+date: "28 de junio de 2017"
+output: pdf_document
+---
+## Estadisticos Descriptivos
+```{r,echo=FALSE,results='markup'}
+library(describeNsimulate)
+descriptive(base)
+```
+## Matriz de Correlaciones
+```{r,echo=FALSE,results='markup'}
+corr_matrix(base)
+```
+## Histogramas
+```{r,echo=FALSE,results='markup'}
+   n<-ncol(base)
+  c<-names(base)
+  i<-1
+  while(i<=n){
+  graphics::hist(base[,i],col=colhist,main=c[i],xlab="")
+      i<-i+1}
+```
+## Graficas Box Plot
+```{r,echo=FALSE,results='markup'}
+  n<-ncol(base)
+  c<-names(base)
+  j<-1
+  while(j<=n){
+ graphics::boxplot(base[,j],main=c[j],col=colbox)
+    j<-j+1}
+```
+

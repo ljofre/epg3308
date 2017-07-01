@@ -1,0 +1,54 @@
+---
+title: "Analisis Descriptivo"
+author: "Seomara Palominos - Leonardo Jofre"
+date: "29 de junio de 2017"
+output: pdf_document
+---
+## Estadisticos Descriptivos
+```{r,echo=FALSE,results='markup',comment=NA}
+library(describeNsimulate)
+descriptive(base,cont)
+```
+## Matriz de Correlaciones
+```{r,echo=FALSE,results='markup',comment=NA}
+corr.matrix(base,cont)
+```
+\pagebreak
+
+## Histogramas 
+```{r,echo=FALSE,results='markup',comment=NA,fig.width=4, fig.height=4,message=FALSE}
+library(ggplot2)
+ncont<-length(cont)
+z<-1
+while(z<=ncont){
+print(cont[z])
+p<-ggplot2::ggplot(base,aes(x=base[[cont[[z]]]]))+ggplot2::geom_histogram(aes(y=..density..), colour="black", fill="white")+
+ggplot2::geom_density(alpha=.2, fill="#FF6666")+
+ggplot2::ggtitle(cont[z])+
+xlab(cont[z])  
+print(p)
+z<-z+1}
+```
+
+## Graficas Box Plot 
+```{r,echo=FALSE,results='markup',comment=NA,fig.width=4, fig.height=4,message=FALSE}
+library(ggplot2)
+i<-1 #continuas
+j<-1 #categoricas
+ncont<-length(cont)
+ncat<-length(cat)
+while(i<=ncont){
+  while(j<=ncat){
+   print(cont[i])
+   print(cat[j])
+   Z<-(ggplot2::ggplot(base,aes(x=base[[cat[[j]]]],y=base[[cont[[i]]]],fill=base[[cat[[j]]]]))+
+   ggplot2::geom_boxplot()+
+   ggplot2::xlab(cat[j])+
+   ggplot2::ylab(cont[i])+
+   ggplot2::theme(legend.position="top")+
+   ggplot2::guides(fill=guide_legend(title=cat[j])))
+   print(Z)
+   j<-j+1}
+i<-i+1}
+```
+
