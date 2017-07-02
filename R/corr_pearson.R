@@ -8,7 +8,6 @@
 #' @references Casella, G. (1990). Statistical Inference. Duxburry Press.
 #' @export
 #'
-
 corr.pearson <- function(base, x, y) {
   x1 <- stats::na.omit(base[[x]])
   y1 <- stats::na.omit(base[[y]])

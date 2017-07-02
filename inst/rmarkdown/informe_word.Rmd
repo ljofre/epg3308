@@ -1,22 +1,22 @@
 ---
 title: "Analisis Descriptivo"
 author: "Seomara Palominos - Leonardo Jofre"
-date: "29 de junio de 2017"
-output: pdf_document
+date: "30 de junio de 2017"
+output: word_document
 ---
 ## Estadisticos Descriptivos
-```{r ,echo=FALSE,results='markup',comment=NA}
+```{r,echo=FALSE,results='markup',comment=NA}
 library(describeNsimulate)
 descriptive(base,cont)
 ```
 ## Matriz de Correlaciones
-```{r ,echo=FALSE,results='markup',comment=NA}
+```{r,echo=FALSE,results='markup',comment=NA}
 corr.matrix(base,cont)
 ```
 \pagebreak
 
 ## Histogramas 
-```{r ,echo=FALSE,results='markup',comment=NA,fig.width=4, fig.height=4,message=FALSE}
+```{r,echo=FALSE,results='markup',comment=NA,fig.width=4, fig.height=4,message=FALSE}
 library(ggplot2)
 ncont<-length(cont)
 z<-1
@@ -31,7 +31,7 @@ z<-z+1}
 ```
 
 ## Graficas Box Plot 
-```{r,echo=FALSE,results='markup',comment=NA,fig.width=4, fig.height=4,message=FALSE}
+```{r ,echo=FALSE,results='markup',comment=NA,fig.width=4, fig.height=4,message=FALSE}
 library(ggplot2)
 i<-1 #continuas
 j<-1 #categoricas

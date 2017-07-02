@@ -1,12 +1,12 @@
 Package: describeNsimulate
-Title: Analisis Descritivo y Simulacion de Variables Aleatorias. 
+Title: Analisis Descritivo y Simulacion de Variables Aleatorias
 Version: 0.0.0.9000
 Author: Seomara Palominos 
     Leonardo Jofre
 Maintainer: Seomara Palominos <skpalominos@uc.cl>
     Leonardo Jofre <lnjofre@uc.cl> 
 Description: Este paquete permite realizar un analisis descritivo de 
-    datos continuos y simulacion de variables aleatorias Normales, Exponenciales, Hiperheometrias, Binomiales, Bernulli y Geometricas. 
+    datos continuos y simulacion de variables aleatorias Normales, Exponenciales, Hiperheometrias, Binomiales, Bernulli y Geometricas
 SystemRequirements: java (>= 1.6)
 License: Propietary
 Date: 2017-06-25
