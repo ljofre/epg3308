@@ -1,6 +1,6 @@
 #' @title Simulacion Variable Aleatoria Normal Bivariada via Box Muller
 #' @description Genera valores aleatorios simulados que siguen una distribucion Normal con
-#'    media cero y varianza uno, estos valores se obtienen aplicando el metodo de Box-Muller.
+#'    media cero y varianza uno aplicando el metodo de Box-Muller.
 #' @param n Numero de valores aleatorios a generar.
 #' @examples
 #' snormalBM(100)
@@ -35,3 +35,4 @@ snormalBM<-function(n)
         xlab = "x", ylab = "Y", zlab = "z",
         main="Grafico de Perspectiva")
 }
+

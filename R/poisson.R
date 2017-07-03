@@ -1,7 +1,10 @@
 #' @title Simulacion Variable Aleatoria Poisson
-#' @description Genera valores aleatorios provenienes de una distribucion Poisson.
+#' @description Genera valores aleatorios provenienes de una distribucion Poisson
+#'    junto con un histograma en el cual se comparan los valores simulados con la densidad
+#'    teorica de la variable aleatoria simulada.
 #' @param n Numero de valores aleatorios a generar.
-#' @param L Parametro Lambda, el cual representa el numero de veces que se espera que ocurra el fenomeno durante un intervalo de tiempo.
+#' @param L Parametro Lambda, el cual representa el numero de veces que se espera que ocurra el fenomeno
+#'   durante un intervalo de tiempo.
 #' @examples
 #' sim.poisson(100,5)
 #' @references Ross, S.M. (1999) Simulacion. Prentice Hall.

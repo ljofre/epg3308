@@ -1,5 +1,7 @@
 #' @title Simulacion Variables Aleatorias Hipergeometricas
-#' @description Genera valores aleatorios provenienes de una distribucion Hipergeometrica.
+#' @description Genera valores aleatorios provenienes de una distribucion Hipergeometrica
+#'    junto con un histograma en el cual se comparan los valores simulados con la densidad
+#'    teorica de la variable aleatoria simulada.
 #' @param t Numero de valores aleatorios a generar.
 #' @param N Numero de elementos en la poblacion.
 #' @param N1 Numero de elementos en la poblacion que pertenecen a la categoria deseada.

@@ -1,13 +1,14 @@
 #' @title Simulacion Variable Aleatoria Binomial
-#' @description Genera valores aleatorios provenienes de una distribucion Binomial.
-#' @param m Numero de valores a generar.
+#' @description Genera valores aleatorios provenienes de una distribucion Binomial
+#'    junto con un histograma en el cual se comparan los valores simulados con la densidad
+#'    teorica de la variable aleatoria simulada.
+#' @param m Numero de valores aleatorios a generar.
 #' @param n Numero de ensayos.
 #' @param p Probabilidad de exito.
 #' @examples
 #' sim.binomial(100,30,0.4)
 #' @references Ross, S.M. (1999) Simulacion. Prentice Hall.
 #' @export
-#'
 sim.binomial<-function(m,n,p)
 {x<-rep(0,m)
 j<-1

@@ -1,6 +1,6 @@
 #' @title Simulacion Variable Aleatoria Normal Bivariada via Coordenadas Polares
 #' @description Genera valores aleatorios simulados que siguen una distribucion Normal con
-#'    media cero y varianza uno, estos valores se obtienen aplicando el metodo de Coordenadas Polares.
+#'    media cero y varianza uno aplicando el metodo de Coordenadas Polares.
 #' @param n Numero de valores aleatorios a generar.
 #' @examples
 #' snormalCP(100)

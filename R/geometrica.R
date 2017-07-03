@@ -1,9 +1,11 @@
 #' @title Simulacion Variable Aleatoria Geometrica
-#' @description Genera valores aleatorios provenienes de una distribucion Geometrica.
+#' @description Genera valores aleatorios provenienes de una distribucion Geometrica
+#'    junto con un histograma en el cual se comparan los valores simulados con la densidad
+#'    teorica de la variable aleatoria simulada.
 #' @param n Numero de valores aleatorioas a generar.
 #' @param p Probabilidad de exito.
 #' @examples
-#' sim.geometrica(100,0.4)
+#' sim.geometrica(100,0.6)
 #' @references Ross, S.M. (1999) Simulacion. Prentice Hall.
 #' @export
 #'
