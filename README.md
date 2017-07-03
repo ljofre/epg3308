@@ -1,4 +1,5 @@
-# epg3308
+# epg3308 <img src="http://www.labmat.puc.cl/themes/labmat/imagenes/facultad_logo.png" align="right" />
+====================
 "trabajo final: paquete en R"
 
 Biblioteca de estadistica descriptiva en R
