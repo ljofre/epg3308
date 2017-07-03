@@ -4,6 +4,9 @@
 #' @param interprete Si desea que la funcion entrege interpretacion asignar
 #'    'SI' en este parametro, en caso contrario asignar 'NO'.
 #' @references Casella, G. (1990). Statistical Inference. Duxburry Press.
+#' @examples
+#' data("albahaca")
+#' asimetria.fisher(albahaca$produccion,'SI')
 #' @export
 #'
 asimetria.fisher<-function(x,interprete){

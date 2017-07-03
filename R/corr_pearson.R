@@ -6,6 +6,9 @@
 #' @param x Nombre variable X.
 #' @param y Nombre variable Y.
 #' @references Casella, G. (1990). Statistical Inference. Duxburry Press.
+#' @examples
+#' data("albahaca")
+#' corr.pearson(albahaca,"n.riegos","produccion")
 #' @export
 #'
 corr.pearson <- function(base, x, y) {

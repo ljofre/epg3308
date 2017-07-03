@@ -15,6 +15,10 @@ asimetria.fisher(x, interprete)
 \description{
 Analiza la existencia de asimetria en la distribucion de una variable continua.
 }
+\examples{
+data("albahaca")
+asimetria.fisher(albahaca$produccion,'SI')
+}
 \references{
 Casella, G. (1990). Statistical Inference. Duxburry Press.
 }

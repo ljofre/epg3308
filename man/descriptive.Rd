@@ -4,17 +4,19 @@
 \alias{descriptive}
 \title{Estadisticos Descriptivos}
 \usage{
-descriptive(base, cont)
+descriptive(base)
 }
 \arguments{
 \item{base}{Nombre de la base de datos.}
-
-\item{cont}{Vector que contine el nombre de las variables continuas a analizar.}
 }
 \description{
 Estrega un resumen descriptivo de una base de datos que posee variables
    continuas. Permite la obtención del Numero de datso, Promedio, Suma, Desviacion Estandar,
    Coeficiente de Variacion, Asimetria, Curtosis, Minimo y Maximo.
+}
+\examples{
+data("albahaca")
+descriptive(albahaca,c("produccion","temp","alt","n.riegos"))
 }
 \references{
 Casella, G. (1990). Statistical Inference. Duxburry Press.

@@ -13,6 +13,10 @@ coeficiente.variacion(x)
 Calcula el Coeficiente de Variacion de una variable de tipo continua, este relaciona la
     media y la variabilidad de la variable.
 }
+\examples{
+data("albahaca")
+coeficiente.variacion(albahaca$produccion)
+}
 \references{
 Casella, G. (1990). Statistical Inference. Duxburry Press.
 }

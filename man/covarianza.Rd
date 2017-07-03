@@ -14,6 +14,10 @@ covarianza(x, y)
 \description{
 Calcula la covarianza entre dos variables de tipo continuas.
 }
+\examples{
+data("albahaca")
+covarianza(albahaca$produccion,albahaca$temp)
+}
 \references{
 Casella, G. (1990). Statistical Inference. Duxburry Press.
 }

@@ -3,13 +3,22 @@
 #'    continuas. Permite la obtención del Numero de datso, Promedio, Suma, Desviacion Estandar,
 #'    Coeficiente de Variacion, Asimetria, Curtosis, Minimo y Maximo.
 #' @param base Nombre de la base de datos.
-#' @param cont Vector que contine el nombre de las variables continuas a analizar.
 #' @references Casella, G. (1990). Statistical Inference. Duxburry Press.
+#' @examples
+#' data("albahaca")
+#' descriptive.continue(albahaca)
 #' @export
 #'
 
-descriptive<-function(base,cont)
+descriptive.continue<-function(base)
 {
+  nmcols <- colnames(base)
+  cont <- c() # selecciona las variables numericas
+  for(nm in nmcols){
+    dt.typ <- class(base[[nm]])
+    if(dt.typ=="numeric" | dt.typ=="integer"){
+      cont <- c(cont, c(nm))
+    }}
   nvar<-length(cont)
   x<-matrix(ncol=12,nrow=nvar)
   i<-1 #numero variables

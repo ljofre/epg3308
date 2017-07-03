@@ -4,15 +4,11 @@
 \alias{informe.word}
 \title{Informe Descriptivo Word}
 \usage{
-informe.word(base, cont, cat, name, direc)
+informe.word(base, name, direc)
 }
 \arguments{
 \item{base}{Nombre base de datos a analizar, esta debe contener variables de tipo
 continuas.}
-
-\item{cont}{Vector nombre variables continuas.}
-
-\item{cat}{Vector nombre variables categoricas.}
 
 \item{name}{Nombre archivo a generar.}
 
@@ -21,4 +17,8 @@ continuas.}
 \description{
 Genera un informe estadistico que incorpora estadisticos descritivos
    , correlaciones entre variables, histogramas de las variables y graficas Box Plot.
+}
+\examples{
+data("albahaca")
+informe.word(albahaca,"estadisticos.docx","C:/Users/usuario/Desktop")
 }

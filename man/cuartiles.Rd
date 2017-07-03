@@ -13,6 +13,10 @@ cuartiles(x)
 Calcula los cuartiles de una variable continua además de entregar
     un histograma de la variable en donde se señalan los cuatiles calculados.
 }
+\examples{
+data("albahaca")
+cuartiles(albahaca$produccion)
+}
 \references{
 Casella, G. (1990). Statistical Inference. Duxburry Press.
 }

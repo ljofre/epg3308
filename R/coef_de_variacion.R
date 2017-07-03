@@ -3,6 +3,9 @@
 #'     media y la variabilidad de la variable.
 #' @param x Nombre de la variable.
 #' @references Casella, G. (1990). Statistical Inference. Duxburry Press.
+#' @examples
+#' data("albahaca")
+#' coeficiente.variacion(albahaca$produccion)
 #' @export
 #'
 coeficiente.variacion<-function(x){

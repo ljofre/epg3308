@@ -8,7 +8,7 @@ minimo<-function(x){
   i<-2
   min<-x[1]
   while(i<=n){
-    if(x[i]<min){min<-x[i]}
+    if(x[i]<=min){min<-x[i]}
     i<-i+1}
   return(min)
 }

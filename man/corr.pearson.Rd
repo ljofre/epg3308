@@ -18,6 +18,10 @@ Calcula la correlacion entre dos variables de tipo continuas junto
     con su respectiva interpretacion, ademas entrega una grafica de dispercion y
     tendencia lineal.
 }
+\examples{
+data("albahaca")
+corr.pearson(albahaca,"n.riegos","produccion")
+}
 \references{
 Casella, G. (1990). Statistical Inference. Duxburry Press.
 }

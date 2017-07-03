@@ -4,6 +4,9 @@
 #' @param interprete Si desea que la funcion entrege una interpretacion asignar
 #'    'SI' en este parametro, en caso contrario asignar 'NO'.
 #' @references Casella, G. (1990). Statistical Inference. Duxburry Press.
+#' @examples
+#' data("albahaca")
+#' curtosis(albahaca$produccion,'SI')
 #' @export
 #'
 curtosis<-function(x,interprete){

@@ -3,6 +3,9 @@
 #'     un histograma de la variable en donde se señalan los cuatiles calculados.
 #' @param x Nombre de la variable.
 #' @references Casella, G. (1990). Statistical Inference. Duxburry Press.
+#' @examples
+#' data("albahaca")
+#' cuartiles(albahaca$produccion)
 #' @export
 #'
 cuartiles<-function(x){

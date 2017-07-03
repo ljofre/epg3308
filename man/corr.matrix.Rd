@@ -2,7 +2,7 @@
 % Please edit documentation in R/corr_matrix.R
 \name{corr.matrix}
 \alias{corr.matrix}
-\title{Matrix de correlaciones}
+\title{Matriz de correlacion de Pearson}
 \usage{
 corr.matrix(base, cont)
 }
@@ -12,8 +12,12 @@ corr.matrix(base, cont)
 \item{cont}{Vector nombre de variables continuas.}
 }
 \description{
-Calcula la matriz de correlaciones de una base de una base de datos
-    que contiene variables de tipo continuas.
+Calcula la matriz de correlaciones de Pearson para las variables continuas
+    de una base de datos.
+}
+\examples{
+data("albahaca")
+corr.matrix(albahaca,c("produccion","temp","alt","n.riegos"))
 }
 \references{
 Casella, G. (1990). Statistical Inference. Duxburry Press.

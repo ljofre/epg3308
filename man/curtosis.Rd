@@ -15,6 +15,10 @@ curtosis(x, interprete)
 \description{
 Estudia la curtosis de una variable de tipo continua.
 }
+\examples{
+data("albahaca")
+curtosis(albahaca$produccion,'SI')
+}
 \references{
 Casella, G. (1990). Statistical Inference. Duxburry Press.
 }
