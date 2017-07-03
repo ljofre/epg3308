@@ -16,7 +16,9 @@ sim.hipergeometrica(t, N, N1, n)
 \item{n}{Tamaño muestral.}
 }
 \description{
-Genera valores aleatorios provenienes de una distribucion Hipergeometrica.
+Genera valores aleatorios provenienes de una distribucion Hipergeometrica
+   junto con un histograma en el cual se comparan los valores simulados con la densidad
+   teorica de la variable aleatoria simulada.
 }
 \examples{
 sim.hipergeometrica(200,100,40,20)

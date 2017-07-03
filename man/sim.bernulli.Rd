@@ -7,8 +7,6 @@
 sim.bernulli(n, p)
 }
 \arguments{
-\item{n}{Numero de valores a generar.}
-
 \item{p}{Probabilidad de exito.}
 }
 \description{

@@ -1,6 +1,9 @@
 #' @title Maximo
 #' @description Encuenta el maximo valor de una variable continua.
 #' @param x Nombre de la variable.
+#' @examples
+#' data("albahaca")
+#' maximo(albahaca$produccion)
 #' @export
 maximo<-function(x){
    x<-stats::na.omit(x)

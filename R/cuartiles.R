@@ -1,6 +1,6 @@
 #' @title Cuartiles
-#' @description Calcula los cuartiles de una variable continua además de entregar
-#'     un histograma de la variable en donde se señalan los cuatiles calculados.
+#' @description Calcula los cuartiles de una variable continua junto con un
+#'     un histograma donde se señalan los cuartiles calculados.
 #' @param x Nombre de la variable.
 #' @references Casella, G. (1990). Statistical Inference. Duxburry Press.
 #' @examples

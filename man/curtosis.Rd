@@ -7,7 +7,7 @@
 curtosis(x, interprete)
 }
 \arguments{
-\item{x}{Nombre de la variable}
+\item{x}{Nombre de la variable.}
 
 \item{interprete}{Si desea que la funcion entrege una interpretacion asignar
 'SI' en este parametro, en caso contrario asignar 'NO'.}

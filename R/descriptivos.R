@@ -1,7 +1,7 @@
-#' @title Estadisticos Descriptivos
-#' @description Estrega un resumen descriptivo de una base de datos que posee variables
-#'    continuas. Permite la obtención del Numero de datso, Promedio, Suma, Desviacion Estandar,
-#'    Coeficiente de Variacion, Asimetria, Curtosis, Minimo y Maximo.
+#' @title Estadisticos Descriptivos Variables Continuas
+#' @description Entrega un resumen descriptivo de las variables continuas de una base de datos.
+#'    Permite la obtención del Numero de datos, Promedio, Suma, Desviacion Estandar,
+#'    Coeficiente de Variacion, Asimetria, Curtosis, Minimo, Maximo y Cuartiles.
 #' @param base Nombre de la base de datos.
 #' @references Casella, G. (1990). Statistical Inference. Duxburry Press.
 #' @examples

@@ -13,8 +13,8 @@ sim.exponencial(n, L)
 }
 \description{
 Genera valores aleatorios provenienes de una distribucion Exponencial
-   junto con un histograma en el cual se comparan los valores simulados con la densidad de la
-   distribucion teorica.
+   junto con un histograma en el cual se comparan los valores simulados con la densidad
+   teorica de la variable aleatoria simulada.
 }
 \examples{
 sim.exponencial(100,7)

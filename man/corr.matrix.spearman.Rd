@@ -10,8 +10,8 @@ corr.matrix.spearman(data.base)
 \item{data.base}{Nombre de la base de datos}
 }
 \description{
-Calcula la matriz de correlaciones de Spearman para las variables continuas
-    de una base de datos.
+Calcula la matriz de correlacion de Spearman para las variables continuas
+    presentes en una base de datos.
 }
 \examples{
 data("albahaca")

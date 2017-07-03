@@ -10,8 +10,8 @@ coeficiente.variacion(x)
 \item{x}{Nombre de la variable.}
 }
 \description{
-Calcula el Coeficiente de Variacion de una variable de tipo continua, este relaciona la
-    media y la variabilidad de la variable.
+Calcula el Coeficiente de Variacion de una variable de tipo continua,
+este relaciona la media y la variabilidad de la variable.
 }
 \examples{
 data("albahaca")

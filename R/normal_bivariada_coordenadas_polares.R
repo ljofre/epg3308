@@ -44,7 +44,7 @@ snormalCP<-function(n)
   f<-function(x,y){p<-(1/2*pi)*exp(-(1/2)*((x^2)+(y^2)))}
   z<-outer(x,y,f)
   graphics::persp(x, y, z, theta = 40, phi = 40, expand = 0.5,
-                  col ="rosybrown1",border="rosybrown2",
+                  col ="mediumpurple2",border="mediumpurple3",
                   ltheta = 100, shade = 0.80, ticktype = "detailed",
                   xlab = "x", ylab = "Y", zlab = "z", main="Grafico de Perspectiva")
 }

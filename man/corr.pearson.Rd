@@ -14,9 +14,10 @@ corr.pearson(base, x, y)
 \item{y}{Nombre variable Y.}
 }
 \description{
-Calcula la correlacion entre dos variables de tipo continuas junto
-    con su respectiva interpretacion, ademas entrega una grafica de dispercion y
-    tendencia lineal.
+Calcula la correlacion de Pearson entre dos variables de tipo continuas,
+   entregando una interpretacion de los resultados obtenidos y entregando una grafica
+   que presenta la dispercion entre las variables y la recta que se obtendria al aplicar
+   un metodo de Regresion Lineal Simple.
 }
 \examples{
 data("albahaca")

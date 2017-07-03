@@ -12,6 +12,10 @@ std(x)
 \description{
 Calcula la Desviacion Estandar de una variable de tipo continua.
 }
+\examples{
+data("albahaca")
+std(albahaca$produccion)
+}
 \references{
 Casella, G. (1990). Statistical Inference. Duxburry Press.
 }

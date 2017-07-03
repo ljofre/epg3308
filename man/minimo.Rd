@@ -12,3 +12,7 @@ minimo(x)
 \description{
 Encuenta el minimo valor de una variable continua.
 }
+\examples{
+data("albahaca")
+minimo(albahaca$produccion)
+}

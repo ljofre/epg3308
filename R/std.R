@@ -2,6 +2,9 @@
 #' @description Calcula la Desviacion Estandar de una variable de tipo continua.
 #' @param x Nombre de la variable.
 #' @references Casella, G. (1990). Statistical Inference. Duxburry Press.
+#' @examples
+#' data("albahaca")
+#' std(albahaca$produccion)
 #' @export
 std<-function(x){
   x<- stats::na.omit(x)

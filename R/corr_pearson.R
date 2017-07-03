@@ -1,7 +1,8 @@
 #' @title Correlacion de Pearson
-#' @description Calcula la correlacion entre dos variables de tipo continuas junto
-#'     con su respectiva interpretacion, ademas entrega una grafica de dispercion y
-#'     tendencia lineal.
+#' @description Calcula la correlacion de Pearson entre dos variables de tipo continuas,
+#'    entregando una interpretacion de los resultados obtenidos y entregando una grafica
+#'    que presenta la dispercion entre las variables y la recta que se obtendria al aplicar
+#'    un metodo de Regresion Lineal Simple.
 #' @param base Nombre de la base de datos.
 #' @param x Nombre variable X.
 #' @param y Nombre variable Y.

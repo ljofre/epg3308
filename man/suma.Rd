@@ -12,3 +12,7 @@ suma(x)
 \description{
 Calcula la suma de una variable continua.
 }
+\examples{
+data("albahaca")
+suma(albahaca$produccion)
+}

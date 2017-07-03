@@ -1,6 +1,9 @@
 #' @title Minimo
 #' @description Encuenta el minimo valor de una variable continua.
 #' @param x Nombre de la variable.
+#' @examples
+#' data("albahaca")
+#' minimo(albahaca$produccion)
 #' @export
 minimo<-function(x){
   x<-stats::na.omit(x)

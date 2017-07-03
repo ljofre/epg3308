@@ -2,23 +2,23 @@
 % Please edit documentation in R/analisis_pdf.R
 \name{informe.pdf}
 \alias{informe.pdf}
-\title{Informe Descriptivo}
+\title{Informe Estadisticos Descriptivos formato PDF}
 \usage{
 informe.pdf(base, name, direc)
 }
 \arguments{
-\item{base}{Nombre base de datos a analizar, esta debe contener variables de tipo
-continuas.}
+\item{base}{Nombre de base de datos a analizar.}
 
-\item{name}{Nombre archivo a generar.}
+\item{name}{Nombre archivo a generar, este argumento debe ser entregado en formato:
+"nombre.pdf"}
 
-\item{direc}{Diarectorio donde se almacena el archivo.}
+\item{direc}{Directorio donde se almacena el archivo a generar.}
 }
 \description{
 Genera un informe estadistico que incorpora estadisticos descritivos
-   , correlaciones entre variables, histogramas de las variables y graficas Box Plot.
+   , correlaciones entre variables, Histogramas y graficas Box Plot.
 }
 \examples{
 data("albahaca")
-informe.word(albahaca,"estadisticos.pdf","C:/Users/usuario/Desktop")
+informe.pdf(albahaca,"estadisticos.pdf","C:/Users/usuario/Desktop")
 }

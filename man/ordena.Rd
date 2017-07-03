@@ -10,5 +10,9 @@ ordena(x)
 \item{x}{Nombre de la variable.}
 }
 \description{
-Ordena de menor a mayor una variable aleatoria de tipo continua.
+Ordena de menor a mayor una variable de tipo continua.
+}
+\examples{
+data("albahaca")
+ordena(albahaca$produccion)
 }

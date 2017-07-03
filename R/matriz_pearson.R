@@ -1,6 +1,6 @@
 #' @title Matriz de correlacion de Pearson
-#' @description Calcula la matriz de correlaciones de Pearson para las variables continuas
-#'     de una base de datos.
+#' @description Calcula la matriz de correlacion de Pearson para las variables continuas
+#'     presentes en una base de datos.
 #' @param data.base Nombre de la base de datos
 #' @references Casella, G. (1990). Statistical Inference. Duxburry Press.
 #' @examples

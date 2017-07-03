@@ -13,7 +13,8 @@ asimetria.fisher(x, interprete)
 'SI' en este parametro, en caso contrario asignar 'NO'.}
 }
 \description{
-Analiza la existencia de asimetria en la distribucion de una variable continua.
+Analiza la existencia de una distribucion asimetrica en una variable de tipo
+   continua.
 }
 \examples{
 data("albahaca")

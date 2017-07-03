@@ -13,8 +13,8 @@ promedio(x)
 Encuenta el promedio de una variable de tipo continua.
 }
 \examples{
-y<-rnorm(100, mean = 6, sd = 5)
-promedio(y)
+data("albahaca")
+promedio(albahaca$produccion)
 }
 \references{
 Casella, G. (1990). Statistical Inference. Duxburry Press.

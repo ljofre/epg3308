@@ -1,6 +1,6 @@
 #' @title Curtosis
 #' @description Estudia la curtosis de una variable de tipo continua.
-#' @param x Nombre de la variable
+#' @param x Nombre de la variable.
 #' @param interprete Si desea que la funcion entrege una interpretacion asignar
 #'    'SI' en este parametro, en caso contrario asignar 'NO'.
 #' @references Casella, G. (1990). Statistical Inference. Duxburry Press.

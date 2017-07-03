@@ -7,14 +7,16 @@
 sim.binomial(m, n, p)
 }
 \arguments{
-\item{m}{Numero de valores a generar.}
+\item{m}{Numero de valores aleatorios a generar.}
 
 \item{n}{Numero de ensayos.}
 
 \item{p}{Probabilidad de exito.}
 }
 \description{
-Genera valores aleatorios provenienes de una distribucion Binomial.
+Genera valores aleatorios provenienes de una distribucion Binomial
+   junto con un histograma en el cual se comparan los valores simulados con la densidad
+   teorica de la variable aleatoria simulada.
 }
 \examples{
 sim.binomial(100,30,0.4)

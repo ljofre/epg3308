@@ -9,10 +9,13 @@ sim.poisson(n, L)
 \arguments{
 \item{n}{Numero de valores aleatorios a generar.}
 
-\item{L}{Parametro Lambda, el cual representa el numero de veces que se espera que ocurra el fenomeno durante un intervalo de tiempo.}
+\item{L}{Parametro Lambda, el cual representa el numero de veces que se espera que ocurra el fenomeno
+durante un intervalo de tiempo.}
 }
 \description{
-Genera valores aleatorios provenienes de una distribucion Poisson.
+Genera valores aleatorios provenienes de una distribucion Poisson
+   junto con un histograma en el cual se comparan los valores simulados con la densidad
+   teorica de la variable aleatoria simulada.
 }
 \examples{
 sim.poisson(100,5)

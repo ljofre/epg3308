@@ -2,7 +2,7 @@
 % Please edit documentation in R/descriptivos.R
 \name{descriptive.continue}
 \alias{descriptive.continue}
-\title{Estadisticos Descriptivos}
+\title{Estadisticos Descriptivos Variables Continuas}
 \usage{
 descriptive.continue(base)
 }
@@ -10,9 +10,9 @@ descriptive.continue(base)
 \item{base}{Nombre de la base de datos.}
 }
 \description{
-Estrega un resumen descriptivo de una base de datos que posee variables
-   continuas. Permite la obtención del Numero de datso, Promedio, Suma, Desviacion Estandar,
-   Coeficiente de Variacion, Asimetria, Curtosis, Minimo y Maximo.
+Entrega un resumen descriptivo de las variables continuas de una base de datos.
+   Permite la obtención del Numero de datos, Promedio, Suma, Desviacion Estandar,
+   Coeficiente de Variacion, Asimetria, Curtosis, Minimo, Maximo y Cuartiles.
 }
 \examples{
 data("albahaca")

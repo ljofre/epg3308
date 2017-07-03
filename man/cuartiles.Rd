@@ -10,8 +10,8 @@ cuartiles(x)
 \item{x}{Nombre de la variable.}
 }
 \description{
-Calcula los cuartiles de una variable continua además de entregar
-    un histograma de la variable en donde se señalan los cuatiles calculados.
+Calcula los cuartiles de una variable continua junto con un
+    un histograma donde se señalan los cuartiles calculados.
 }
 \examples{
 data("albahaca")

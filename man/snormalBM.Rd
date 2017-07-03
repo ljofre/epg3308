@@ -11,7 +11,7 @@ snormalBM(n)
 }
 \description{
 Genera valores aleatorios simulados que siguen una distribucion Normal con
-   media cero y varianza uno, estos valores se obtienen aplicando el metodo de Box-Muller.
+   media cero y varianza uno aplicando el metodo de Box-Muller.
 }
 \examples{
 snormalBM(100)

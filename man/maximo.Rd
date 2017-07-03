@@ -12,3 +12,7 @@ maximo(x)
 \description{
 Encuenta el maximo valor de una variable continua.
 }
+\examples{
+data("albahaca")
+maximo(albahaca$produccion)
+}

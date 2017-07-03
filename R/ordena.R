@@ -1,6 +1,9 @@
 #' @title Ordena
-#' @description Ordena de menor a mayor una variable aleatoria de tipo continua.
+#' @description Ordena de menor a mayor una variable de tipo continua.
 #' @param x Nombre de la variable.
+#' @examples
+#' data("albahaca")
+#' ordena(albahaca$produccion)
 #' @export
 #'
 ordena<-function(x){

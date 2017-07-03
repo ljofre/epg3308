@@ -3,8 +3,8 @@
 #' @param x Nombre de la variable.
 #' @references Casella, G. (1990). Statistical Inference. Duxburry Press.
 #' @examples
-#' y<-rnorm(100, mean = 6, sd = 5)
-#' promedio(y)
+#' data("albahaca")
+#' promedio(albahaca$produccion)
 #' @export
 promedio<-function(x){
   x<-stats::na.omit(x)
