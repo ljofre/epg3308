@@ -20,6 +20,5 @@ Seomara Palominos (skpalominos@uc.cl)
 
 Leonardo Jofré (lnjofre@uc.cl)
 
-![]
-(https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAmpAAAAJDVhMWI1M2YzLWExYzMtNDZiZi1hMmViLTgzMmFhNzkyOTc3Yw.jpg)
+![](https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAmpAAAAJDVhMWI1M2YzLWExYzMtNDZiZi1hMmViLTgzMmFhNzkyOTc3Yw.jpg)
 
