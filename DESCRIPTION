@@ -13,7 +13,7 @@ Date: 2017-06-25
 Encoding: UTF-8
 LazyData: TRUE
 RoxygenNote: 6.0.1
-Depends: R (>= 3.4.0)
+Depends: R (>= 3.0.0)
 Imports:
   graphics,
   stats,
