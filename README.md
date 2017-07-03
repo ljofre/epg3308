@@ -91,6 +91,47 @@ n.riegos    0.8575672 0.7956535 0.7920263 1.0000000
 [1] 1503.94
 ```
 
+## Resumenes Descriptivos
+
+### Categoricas
+
+```s
+descriptive.categorical(albahaca)
+[1] "hum"
+  hum  n proporcion   odds error std
+1   1  7      0.175 0.2121    0.0601
+2   2 15      0.375 0.6000    0.0765
+3   3 18      0.450 0.8182    0.0787
+[1] "sexo"
+  sexo  n proporcion   odds error std
+1    0 19      0.475 0.9048     0.079
+2    1 21      0.525 1.1053     0.079
+[1] "marca"
+  marca  n proporcion   odds error std
+1     1 12        0.3 0.4286    0.0725
+2     2 16        0.4 0.6667    0.0775
+3     3 12        0.3 0.4286    0.0725
+[1] "cuidado"
+  cuidado  n proporcion odds error std
+1       1 20        0.5    1    0.0791
+2       2 20        0.5    1    0.0791
+```
+
+### Numéricas
+
+```s
+> descriptive.continue(albahaca)
+            n promedio     suma     std    CV asimetria curtosis minimo maximo     Q1     Q2
+produccion 40   37.598  1503.94  10.837 0.288    -0.193    2.251  12.94  60.31  35.67  39.31
+temp       40   16.466   658.64   2.617 0.159    -0.018    1.727  12.07  20.92  18.65  18.20
+alt        40  790.375 31615.00 158.639 0.201    -0.185    1.426 502.00 988.00 779.00 974.00
+n.riegos   40    7.500   300.00   2.253 0.300     0.131    1.948   4.00  12.00   6.50   9.00
+               Q3
+produccion  35.67
+temp        18.65
+alt        779.00
+n.riegos     6.50
+```
 
 ## Autores
 
