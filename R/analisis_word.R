@@ -11,7 +11,7 @@
 #' informe.word(albahaca,"estadisticos.docx","C:/Users/usuario/Desktop")}
 #' @export
 informe.word<-function(base,name,direc){
-  rmarkdown::render(input="inst/rmarkdown/informe_word.Rmd",
+  rmarkdown::render(input="./inst/rmarkdown/informe_word.Rmd",
                     output_format = rmarkdown::word_document(),
                     output_file =name,
                     output_dir = direc)}
