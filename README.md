@@ -267,6 +267,10 @@ n.riegos     6.50
  [99]  1.03553346 -0.8775717
 ```
 
+## Visualización y Reportería 
+
+Ver estas funcionalidades en el [manual](https://github.com/ljofre/epg3308/tree/master/man)
+
 
 ## Autores
 
