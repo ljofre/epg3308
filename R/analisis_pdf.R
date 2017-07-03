@@ -11,9 +11,19 @@
 #' informe.pdf(albahaca,"estadisticos.pdf","C:/Users/usuario/Desktop")}
 #' @export
 informe.pdf<-function(base,name,direc){
- rmarkdown::render(input="./Rmd/informe_pdf.Rmd",
-                  "pdf_document",
-                  output_file=name,
-                  output_dir=direc)}
+  tryCatch({
+    rmarkdown::render(input="./Rmd/informe_pdf.Rmd",
+                      "pdf_document",
+                      output_file=name,
+                      output_dir=direc)
+  },
+  error = function(cond){
+    rmarkdown::render(input="./rmarkdown/informe_pdf.Rmd",
+                      "pdf_document",
+                      output_file=name,
+                      output_dir=direc)
+    NULL
+  })
+ }
 
 
