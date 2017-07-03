@@ -1,5 +1,6 @@
 #' @title Coeficiente de Asimetria de Fisher
-#' @description Analiza la existencia de asimetria en la distribucion de una variable continua.
+#' @description Analiza la existencia de una distribucion asimetrica en una variable de tipo
+#'    continua.
 #' @param x Nombre de la variable.
 #' @param interprete Si desea que la funcion entrege interpretacion asignar
 #'    'SI' en este parametro, en caso contrario asignar 'NO'.
