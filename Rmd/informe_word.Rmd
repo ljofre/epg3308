@@ -1,0 +1,80 @@
+---
+title: "Analisis Descriptivo"
+author: "Seomara Palominos - Leonardo Jofre"
+date: "30 de junio de 2017"
+output: word_document
+---
+## Estadisticos Descriptivos para variables Continuas
+```{r ,echo=FALSE,results='markup',comment=NA}
+library(describeNsimulate)
+descriptive.continue(base)
+```
+## Matriz de Correlacion de Pearson 
+```{r ,echo=FALSE,results='markup',comment=NA}
+library(describeNsimulate)
+corr.matrix.pearson(base)
+```
+## Matriz de Correlacion de Spearman
+```{r ,echo=FALSE,results='markup',comment=NA}
+library(describeNsimulate)
+corr.matrix.spearman(base)
+```
+\pagebreak
+
+## Histogramas 
+```{r ,echo=FALSE,results='markup',comment=NA,fig.width=4, fig.height=4,message=FALSE}
+library(ggplot2)
+nmcols <- colnames(base)
+  cont <- c() # selecciona las variables numericas
+  for(nm in nmcols){
+    dt.typ <- class(base[[nm]])
+    if(dt.typ=="numeric" | dt.typ=="integer"){
+      cont <- c(cont, c(nm))
+    }}
+ncont<-length(cont)
+z<-1
+while(z<=ncont){
+print(cont[z])
+p<-ggplot2::ggplot(base,aes(x=base[[cont[[z]]]]))+ggplot2::geom_histogram(aes(y=..density..), colour="black", fill="white")+
+ggplot2::geom_density(alpha=.2, fill="#FF6666")+
+ggplot2::ggtitle(cont[z])+
+xlab(cont[z])  
+print(p)
+z<-z+1}
+```
+
+## Graficas Box Plot 
+```{r,echo=FALSE,results='markup',comment=NA,fig.width=4, fig.height=4,message=FALSE}
+descriptive.boxplot <- function(data.base){
+  nmcols <- colnames(data.base)
+  num <- c()
+  int <- c()
+  fac <- c()
+  for(nm in nmcols){
+    dt.typ <- class(data.base[[nm]])
+    if(dt.typ=="numeric"){
+      num <- c(num, c(nm))
+    } else if(dt.typ=="integer"){
+      int <- c(int, c(nm))
+    } else if(dt.typ=="factor"){
+      fac <- c(fac, c(nm))
+    }
+  }
+  
+  for(fac.temp in fac){
+    for(num.temp in num){
+     print(num.temp)
+      p<- ggplot2::ggplot(data.base, ggplot2::aes(x=data.base[[fac.temp]], y=data.base[[num.temp]],fill=data.base[[fac.temp]])) +
+        ggplot2::geom_boxplot(outlier.size=0) +
+        ggplot2::scale_fill_discrete(name=fac.temp) +
+        ggplot2::theme(legend.position="top")+
+        ggplot2::xlab(fac.temp) +
+        ggplot2::ylab(num.temp)
+      print(p)
+    }
+  }
+}
+
+descriptive.boxplot(base)
+```
+
