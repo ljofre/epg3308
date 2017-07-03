@@ -3,7 +3,7 @@
 \docType{data}
 \name{albahaca}
 \alias{albahaca}
-\title{Produccion de Albahaca.}
+\title{Produccion de Albahaca}
 \format{un data.frame de 40 casos y 8 variables
 \describe{
 \item{sexo}{Hace referencia al sexo del agricultor encargado de diversos aspectos influyentes en la optima produccion de Albahaca, esta variable sera clasificada de acuerdo a la siguiente codificacion: Masculino = 0 y Femenino = 1.}
