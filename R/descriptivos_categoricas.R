@@ -24,7 +24,7 @@ descriptive.categorical <- function(data.base){
 
   agg_return <- c()
   for(nm in colnames(categorical.data)){
-    agg <- aggregate(categorical.data[[nm]], by=list(categorical.data[[nm]]), length)
+    agg <- stats::aggregate(categorical.data[[nm]], by=list(categorical.data[[nm]]), length)
     colnames(agg) <- c(nm, "n")
     print(nm)
     agg["proporcion"] <- round(agg$n/num.row,4)

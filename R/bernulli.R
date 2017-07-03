@@ -1,5 +1,6 @@
 #' @title Simulacion Variable Aleatoria Bernulli
 #' @description Genera valores aleatorios provenienes de una distribucion Bernulli.
+#' @param n Numero de valores aleatorios a generar.
 #' @param p Probabilidad de exito.
 #' @examples
 #' sim.bernulli(100,0.4)

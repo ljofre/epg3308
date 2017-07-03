@@ -19,6 +19,7 @@ Genera un informe estadistico que incorpora estadisticos descritivos
    , correlaciones entre variables, Histogramas y graficas Box Plot.
 }
 \examples{
+\dontrun{
 data("albahaca")
-informe.word(albahaca,"estadisticos.docx","C:/Users/usuario/Desktop")
+informe.word(albahaca,"estadisticos.docx","C:/Users/usuario/Desktop")}
 }

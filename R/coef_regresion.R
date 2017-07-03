@@ -1,8 +1,6 @@
 #' @title Correlacion de Pearson y Coeficientes de Regresion Lineal Simple
 #' @description Calcula la correlacion de Pearson entre las combinaciones posibles de
-#'     variables continuas de una base de datos, de manera adicional entrega una
-#'     estimacion de los coeficientes de Regresion Lineal como informacion a priori para
-#'     otro tipo de analisis.
+#'    variables continuas de una base de datos, entrega una estimacion de los coeficientes de Regresion Lineal.
 #' @param data.base Nombre de la base de datos.
 #' @references Casella, G. (1990). Statistical Inference. Duxburry Press.
 #' @examples
@@ -41,9 +39,4 @@ descriptive.regression <- function(data.base){
 }
 
 
-descriptive.regression(albahaca)
 
-
-lm(formula, data, subset, weights, na.action,
-   method = "qr", model = TRUE, x = FALSE, y = FALSE, qr = TRUE,
-   singular.ok = TRUE, contrasts = NULL, offset, ...)

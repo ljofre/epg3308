@@ -4,6 +4,17 @@
 \name{albahaca}
 \alias{albahaca}
 \title{Produccion de Albahaca.}
+\format{un data.frame de 40 casos y 8 variables
+\describe{
+\item{sexo}{Hace referencia al sexo del agricultor encargado de diversos aspectos influyentes en la optima produccion de Albahaca, esta variable sera clasificada de acuerdo a la siguiente codificacion: Masculino = 0 y Femenino = 1.}
+\item{produccion}{Hace referencia al forraje, produccion de Albahaca en los campos ubicados en el Valle Central, esta variable sera medida en toneladas.}
+\item{n.riegos}{Numero de riegos mensuales que se lleva a cabo en los terrenos donde se cultiva la Albahaca.}
+\item{temp}{Temperaturas promedio en que se encuentran las plantaciones y esta variable es medida en Grados Celsius.}
+\item{alt}{Altura sobre el nivel del mar en que se encuentran las plantaciones, sera medida en Metros}
+\item{marca}{Se refiere a la industria o empresa que produce la Albahaca, estas se clasifican en las siguientes industrias: Marca A = 1, Marca B = 2 y Marca C = 3.}
+\item{cuidado}{Hace referencia al cuidado de plagas, mediante el uso de pesticidas en los campos. Sera clasificado de acuerdo a: Baja concentracion de pesticidas = 1, y Alta concentracion de pesticidas = 2}
+\item{hum}{Nivel de humedad relativa del ambiente, clasificada en Baja Humedad = 1, Media Humedad = 2, Alta Humedad = 3}
+}}
 \description{
 datos de produccion de albahaca
 }

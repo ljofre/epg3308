@@ -6,8 +6,9 @@
 #'     "nombre.docx"
 #' @param direc Directorio donde se almacena el archivo a generar.
 #' @examples
+#' \dontrun{
 #' data("albahaca")
-#' informe.word(albahaca,"estadisticos.docx","C:/Users/usuario/Desktop")
+#' informe.word(albahaca,"estadisticos.docx","C:/Users/usuario/Desktop")}
 #' @export
 informe.word<-function(base,name,direc){
   rmarkdown::render(input="inst/rmarkdown/informe_word.Rmd",

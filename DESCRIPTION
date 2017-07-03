@@ -6,9 +6,9 @@ Author: Seomara Palominos
 Maintainer: Seomara Palominos <skpalominos@uc.cl>
     Leonardo Jofre <lnjofre@uc.cl> 
 Description: Este paquete permite realizar un analisis descritivo de 
-    datos continuos y simulacion de variables aleatorias Normales, Exponenciales, Hiperheometrias, Binomiales, Bernulli y Geometricas
-SystemRequirements: java (>= 1.6)
-License: Propietary
+    datos continuos y simulacion de variables aleatorias Normales, 
+    Exponenciales, Hiperheometrias, Binomiales, Bernulli y Geometricas.
+License: GPL-2 
 Date: 2017-06-25
 Encoding: UTF-8
 LazyData: TRUE
@@ -20,4 +20,3 @@ Imports:
   base,
   ggplot2,
   rmarkdown
-

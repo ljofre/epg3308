@@ -19,6 +19,7 @@ Genera un informe estadistico que incorpora estadisticos descritivos
    , correlaciones entre variables, Histogramas y graficas Box Plot.
 }
 \examples{
+\dontrun{
 data("albahaca")
-informe.pdf(albahaca,"estadisticos.pdf","C:/Users/usuario/Desktop")
+informe.pdf(albahaca,"estadisticos.pdf","C:/Users/usuario/Desktop")}
 }

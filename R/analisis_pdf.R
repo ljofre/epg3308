@@ -6,8 +6,9 @@
 #'     "nombre.pdf"
 #' @param direc Directorio donde se almacena el archivo a generar.
 #' @examples
+#' \dontrun{
 #' data("albahaca")
-#' informe.pdf(albahaca,"estadisticos.pdf","C:/Users/usuario/Desktop")
+#' informe.pdf(albahaca,"estadisticos.pdf","C:/Users/usuario/Desktop")}
 #' @export
 informe.pdf<-function(base,name,direc){
  rmarkdown::render(input="inst/rmarkdown/informe_pdf.Rmd",
