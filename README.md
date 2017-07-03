@@ -17,9 +17,11 @@ devtools::install_github("ljofre/epg3308")
 
 Seomara Palominos (skpalominos@uc.cl)
 
-![](https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAkKAAAAJGEwNjIxNDcxLWQ5OWUtNGMxMC1iZjNhLWU4NGUyNmYwZjA3Zg.jpg)
+<img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAkKAAAAJGEwNjIxNDcxLWQ5OWUtNGMxMC1iZjNhLWU4NGUyNmYwZjA3Zg.jpg" width="200" height="200" />
+
 
 Leonardo Jofré (lnjofre@uc.cl)
 
-![](https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAmpAAAAJDVhMWI1M2YzLWExYzMtNDZiZi1hMmViLTgzMmFhNzkyOTc3Yw.jpg)
+<img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAmpAAAAJDVhMWI1M2YzLWExYzMtNDZiZi1hMmViLTgzMmFhNzkyOTc3Yw.jpg" width="200" height="200" />
+
 
