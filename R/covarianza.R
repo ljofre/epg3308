@@ -13,12 +13,6 @@ covarianza<-function(x,y){
     promx<-promedio(x)
     promy<-promedio(y)
     n<-length(x)
-    c<-0
-    i<-1
-    while(i<=n){
-       c<-c+((x[i]-promx)*(y[i]-promy))
-       i<-i+1}
-    c<-(c/(n-1))
-   return(c)}
-      else{print("Las variables poseen distintos tamanos")}
-}
+    c<-(suma((x-promx)*(y-promy)))/(n-1)
+    return(c)}
+      else{print("Las variables poseen distintos tamanos")}}
