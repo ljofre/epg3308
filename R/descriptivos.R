@@ -9,7 +9,6 @@
 #' descriptive.continue(albahaca)
 #' @export
 #'
-
 descriptive.continue<-function(base)
 {
   nmcols <- colnames(base)
